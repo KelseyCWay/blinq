@@ -1,0 +1,55 @@
+.container {
+  width: 100%;
+  justify-content: center;
+  margin-left: 2.5rem;
+  margin-top: 2.5rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  border-color: rgb(249 250 251);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  border-radius: 0.5rem;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.connection {
+  width: 10rem;
+}
+
+.green {
+  font-weight: 500;
+  color: rgb(39, 195, 0);
+}
+
+.grey {
+  color: rgb(107, 107, 107);
+}
+
+.buttons {
+  font-weight: 700;
+  padding: 1.5em 2em;
+  pointer-events: all;
+  position: relative;
+  margin-left: 0.75rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  flex-grow: 1;
+  color: #111827;
+  padding: 1.5em 2em;
+  pointer-events: all;
+  position: relative;
+  width: calc(100% - 4.5em);
+}

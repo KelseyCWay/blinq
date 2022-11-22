@@ -1,0 +1,49 @@
+.label {
+  display: inline-block;
+  margin-bottom: 0.5rem; /* 8px */
+  font-weight: 600;
+  color: rgb(69, 69, 69);
+}
+
+.check {
+  display: bl;
+  margin-left: 0.5rem; /* 8px */
+  margin-bottom: 0.5rem; /* 8px */
+  font-weight: 500;
+  color: rgb(69, 69, 69);
+}
+
+.container {
+  margin-bottom: 1.5rem; /* 24px */
+}
+
+.field {
+  display: block;
+  width: 100%;
+  padding: 3;
+  padding-top: 1.5;
+  appearance: none;
+  border-radius: 0.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  line-height: 1.25;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+  background-clip: padding-box;
+  border: solid;
+  border-color: rgb(154, 154, 155);
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+    backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  margin: 0;
+}
+
+.field:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  border-color: rgb(111, 111, 111);
+  box-shadow: 0 0 0 3px rgba(100, 100, 100, 0.5);
+}

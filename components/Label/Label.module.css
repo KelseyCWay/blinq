@@ -1,0 +1,6 @@
+.label {
+  display: inline-block;
+  margin-bottom: 0.5rem; /* 8px */
+  font-weight: 600;
+  color: rgb(69, 69, 69);
+}

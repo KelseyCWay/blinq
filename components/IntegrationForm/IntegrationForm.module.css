@@ -1,0 +1,15 @@
+.check {
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: rgb(69, 69, 69);
+}
+
+.container {
+  margin-bottom: 1.5rem;
+}
+
+.button {
+  display: "flex";
+  justify-content: "flex-end";
+}
