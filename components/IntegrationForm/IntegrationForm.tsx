@@ -34,7 +34,7 @@ export const IntegrationForm = ({
             const fieldName = `fields.${index}`;
             return (
               <div key={field.id} className={styles.container}>
-                {field?.isMap ? (
+                {field?.type === "map" ? (
                   <IntegrationFieldMapper
                     title={field.displayName}
                     subtitle="Please map each Blinq contact field to a field in your integration."

@@ -109,7 +109,7 @@ export class Database {
             name: "field_mappings",
             displayName: "Field Mappings",
             value: "",
-            isMap: true,
+            type: "map",
             children: [
               {
                 id: "330",

@@ -10,6 +10,6 @@ export interface IntegrationField {
   name: string;
   displayName: string;
   value?: string;
-  isMap?: boolean;
+  type?: "map" | "string";
   children?: IntegrationField[];
 }
